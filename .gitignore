@@ -1,0 +1,8 @@
+.buildpath
+.htaccess
+.project
+.settings
+.idea
+.svn
+.DS_Store
+*.log
