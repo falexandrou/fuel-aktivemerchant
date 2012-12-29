@@ -38,6 +38,7 @@ Autoloader::add_classes(array(
 	'AktiveMerchant\\Common\\CountryCode'  =>  __DIR__.'/classes/lib/AktiveMerchant/Common/CountryCode.php',
 	'AktiveMerchant\\Common\\CurrencyCode'  =>  __DIR__.'/classes/lib/AktiveMerchant/Common/CurrencyCode.php',
 	'AktiveMerchant\\Common\\Error'  =>  __DIR__.'/classes/lib/AktiveMerchant/Common/Error.php',
+	'AktiveMerchant\\Common\\Options'  =>  __DIR__.'/classes/lib/AktiveMerchant/Common/Options.php',
 	'AktiveMerchant\\Http\\Request'  =>  __DIR__.'/classes/lib/AktiveMerchant/Http/Request.php',
 	'AktiveMerchant\\Http\\RequestInterface'  =>  __DIR__.'/classes/lib/AktiveMerchant/Http/RequestInterface.php',
 	'AktiveMerchant\\Support\\GatewaySupport'  =>  __DIR__.'/classes/lib/AktiveMerchant/Support/GatewaySupport.php',
@@ -71,6 +72,7 @@ Autoloader::add_classes(array(
 	'classes\\unit_tests\\AktiveMerchant\\Billing\\Gateways\\PiraeusPaycenterTest'  =>  __DIR__.'/classes/unit_tests/AktiveMerchant/Billing/Gateways/PiraeusPaycenterTest.php',
 	'classes\\unit_tests\\AktiveMerchant\\Billing\\Gateways\\RealexTest'  =>  __DIR__.'/classes/unit_tests/AktiveMerchant/Billing/Gateways/RealexTest.php',
 	'classes\\unit_tests\\AktiveMerchant\\Common\\CountryTest'  =>  __DIR__.'/classes/unit_tests/AktiveMerchant/Common/CountryTest.php',
+	'classes\\unit_tests\\AktiveMerchant\\Common\\OptionsTest'  =>  __DIR__.'/classes/unit_tests/AktiveMerchant/Common/OptionsTest.php',
 	'classes\\unit_tests\\AktiveMerchant\\Mock\\Request'  =>  __DIR__.'/classes/unit_tests/AktiveMerchant/Mock/Request.php',
 ));
 ?>
